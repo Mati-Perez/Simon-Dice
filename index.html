@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon-Dice</title>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    
+    <div class="container" id="menu">
+        <div class="row">
+          <div class="col-8">
+            <div class="alert alert-primary" role="alert" id="cont-estado"><p id="estado"></p></div>
+            
+          </div>
+           
+          <div class="col">
+            <div class="alert alert-warning" role="alert">
+                <p>Ronda #<strong id="ronda">0</strong></p>
+            </div>
+            
+          </div>
+
+          <div class="col">
+            <br>
+            <button type="button" class="btn btn-outline-primary">Comenzar</button>
+
+          </div>
+        </div>
+    </div>
+    
+    <div class="container text-center" id="tablero">
+        <div class="row">
+            <div class="col">
+              <div class="carta" id="carta-1">
+                A
+              </div>
+                
+            </div>
+            
+            <div class="col">
+            
+            <div class="carta" id="carta-2">
+                B
+            </div>
+              
+            </div>
+  
+        </div>
+
+        <div class="row">
+            <div class="col">
+              <div class="carta" id="carta-3">
+                C
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="carta" id="carta-4">
+                D
+              </div>
+            </div>
+  
+        </div>
+    </div>
+
+
+    <!--
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+        </div>
+    </div>
+-->
+
+<audio id="audio" src="sonidos/cartoon121.mp3"></audio>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
