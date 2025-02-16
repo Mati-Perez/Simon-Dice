@@ -1,0 +1,76 @@
+
+#menu{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+    
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con 50% de opacidad */
+    backdrop-filter: blur(10px); /* Aplica un desenfoque de 10 píxeles */
+     
+}
+
+.carta{
+    border: solid;
+    height: 300px;
+    margin-bottom: 20px;
+    align-content: center;
+    border-radius: 20px;
+
+    opacity: 0.5;
+    transition: opacity 500ms;
+
+
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: transform 300ms, opacity 500ms;
+
+}
+
+#carta-1{
+    background-color: #f14646;
+    border-color: red;
+}
+
+#carta-2{
+    background-color: yellow;
+    border-color: #f39c12;
+}
+
+#carta-3{
+    background-color: #5ff148;
+    border-color:green;
+}
+
+#carta-4{
+    background-color: #3498db;
+    border-color:blue;
+}
+
+div p{
+    font-weight: bold;
+}
+
+.activo:hover{
+    cursor: pointer;
+}
+
+.desactivo:hover{
+    cursor: none;
+}
+
+#tablero {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1); 
+
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con 50% de opacidad */
+    backdrop-filter: blur(10px); /* Aplica un desenfoque de 10 píxeles */
+    
+  }
+  
